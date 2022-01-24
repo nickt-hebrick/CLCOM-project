@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Anaheim';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Anaheim'), local('Anaheim-Regular'), url(http://themes.googleusercontent.com/static/fonts/anaheim/v1/9grF9iDBrnUvUAGLpfiBHQ.woff) format('woff');
+}
+
+body {
+    text-align: center;
+    background-color: #c0c0c0;
+}
+
+#riddle {
+	margin-left: 23px;
+    margin-top: 23px;
+    position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 50%;
+	top:50%;
+	margin-left: -250px;
+	margin-top: -250px;
+}
+		   
+#riddle img {
+	float: left;
+	opacity: 1.0;
+	border: 1px solid black;
+}
+
+#riddle img:hover {
+	cursor: pointer;
+}
